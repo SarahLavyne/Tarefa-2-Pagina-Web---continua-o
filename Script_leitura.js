@@ -26,5 +26,5 @@ function redirecionarEdicao() {
     
 }
 function redirecionarInicio() {
-    window.location.href = `Inicio.html`;
+    window.location.href = `index.html`;
 }
