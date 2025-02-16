@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 img.className = "historia-imagem";
                 img.addEventListener("click", () => {
                     // Redireciona para a página de leitura
-                    window.location.href = `leitura.html?titulo=${encodeURIComponent(historia.titulo)}&data=${encodeURIComponent(historia.data)}&imagem=${encodeURIComponent(historia.imagem || "default.jpg")}&texto=${encodeURIComponent(historia.historia)}&genero=${encodeURIComponent(historia.genero)}`;
+                    window.location.href = `Leitura_novo.html?titulo=${encodeURIComponent(historia.titulo)}&data=${encodeURIComponent(historia.data)}&imagem=${encodeURIComponent(historia.imagem || "default.jpg")}&texto=${encodeURIComponent(historia.historia)}&genero=${encodeURIComponent(historia.genero)}`;
                 });
 
                 const titulo = document.createElement("h3");
